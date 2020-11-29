@@ -1,0 +1,24 @@
+theme = "reveal-hugo"
+disableKinds = ["taxonomy", "term", "sitemap", "RSS"]
+
+[params]
+useMath = true
+
+[outputFormats.Reveal]
+baseName = "index"
+mediaType = "text/html"
+isHTML = true
+
+[markup.highlight]
+codeFences = false
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[params.reveal_hugo]
+custom_theme = "custom-theme.scss"
+custom_theme_compile = true
+highlight_theme = "github"
+width = 1280
+height = 720
+transition_speed = "fast"

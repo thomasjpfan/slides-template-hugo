@@ -1,0 +1,16 @@
+{{ if .Site.Params.useMath | default false }}
+<script>
+    MathJax = {
+        tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+        },
+        svg: {
+            fontCache: 'global'
+        }
+    };
+</script>
+<script type="text/javascript" id="MathJax-script" async src="javascript/tex-svg.js" />
+</script>
+{{ end }}
+
+<link rel="shortcut icon" href="/favicon.ico">
