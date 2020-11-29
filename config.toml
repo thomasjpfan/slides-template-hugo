@@ -1,5 +1,6 @@
 theme = "reveal-hugo"
 disableKinds = ["taxonomy", "term", "sitemap", "RSS"]
+baseURL = "https://thomasjpfan.github.io/slides-template-hugo/"
 
 [params]
 useMath = true
