@@ -1,9 +1,14 @@
 # Instructions for Building Slides
 
 1. Install [hugo](https://gohugo.io/getting-started/installing/)
-2. For development:
-```
+
+1. For development:
+
+```bash
 hugo server
 ```
-3. In the `config.toml` set `useMath = false` if there is not any math in your
+
+1. In `config.toml` set `useMath = false` if there is not any math in your
 slides.
+
+1. In `config.toml` set `baseURL` to be the baseURL of your hosted website.
