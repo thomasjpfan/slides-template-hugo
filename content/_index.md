@@ -81,4 +81,4 @@ Thomas J. Fan
 
 {{< /g >}}
 
-{{< /grid >}}
+{{% /grid %}}
