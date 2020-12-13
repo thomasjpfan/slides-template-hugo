@@ -19,7 +19,7 @@ unsafe = true
 [params.reveal_hugo]
 custom_theme = "custom-theme.scss"
 custom_theme_compile = true
-highlight_theme = "github"
+highlight_theme = "monokai-sublime"
 width = 1280
 height = 720
 transition_speed = "fast"
