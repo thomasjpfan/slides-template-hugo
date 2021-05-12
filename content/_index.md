@@ -46,6 +46,15 @@ func main() {
 
 ---
 
+# This is a title
+
+Both `fragment` and `frag` accept two additional parameters:
+
+- `class`: sets the class of the wrapping `span` element
+- `index`: controls the order in which sections will appear
+
+---
+
 ## Cool equations
 
 Displayed equations are wrapped in double-\$
@@ -62,14 +71,14 @@ Inline equations like $E=mc^2$ are wrapped in single-\$
 
 {{< g 1 >}}
 {{< figure src="images/icon.png" height="140px" >}}
-1. [Cross Validation](#validation)
-1. [Parameter Tuning](#parameter-tuning)
-1. [Missing Values](#missing-values)
-1. [Pandas Interoperability](#pandas)
+
+```python
+print("Hello world")
+```
 
 {{< /g >}}
 
-{{< g 1 >}}
+{{< g 2 >}}
 
 Thomas J. Fan
 {{< social >}}

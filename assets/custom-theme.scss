@@ -1,17 +1,21 @@
 @import "reveal-js/css/theme/template/mixins";
 @import "reveal-js/css/theme/template/settings";
 
-$mainFont: Helvetica, sans-serif;
+$backgroundColor: #fff;
+
 $mainColor: #000;
-$mainFontSize: 32px;
-$headingFont: Helvetica, sans-serif;
 $headingColor: #520b92;
+
+$mainFontSize: 32px;
+$mainFont: Helvetica, sans-serif;
+$headingFont: Helvetica, sans-serif;
+$headingTextShadow: none;
+$headingLetterSpacing: normal;
 $headingTextTransform: none;
 $headingFontWeight: bold;
-$backgroundColor: #fff;
 $linkColor: #008000;
-$linkColorHover: lighten( $linkColor, 10% );
-$selectionBackgroundColor: rgba(0, 0, 0, 0.99);
+$linkColorHover: lighten( $linkColor, 15% );
+$selectionBackgroundColor: lighten( $headingColor, 25% );
 
 $heading1Size: 1.8em;
 $heading2Size: 1.4em;
@@ -21,7 +25,17 @@ $heading4Size: 1.0em;
 @import "reveal-js/css/theme/template/theme";
 
 div.reveal {
-  border-top: solid 6px #520b92;
+  border-top: solid 8px #520b92;
+}
+
+code {
+  background-color: #f2f2f2;
+  padding: .1em;
+  border-radius: .2em;
+}
+
+li {
+  line-height: 1.5em;
 }
 
 .reveal pre {
