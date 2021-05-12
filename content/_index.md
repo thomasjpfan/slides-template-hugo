@@ -67,7 +67,7 @@ Inline equations like $E=mc^2$ are wrapped in single-\$
 
 # Closing
 
-{{% grid middle%}}
+{{% grid middle %}}
 
 {{< g 1 >}}
 {{< figure src="images/icon.png" height="140px" >}}
