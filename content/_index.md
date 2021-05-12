@@ -30,7 +30,7 @@ func main() {
 
 ---
 
-# This is cool
+# Fragments
 
 - {{< frag c="One" >}}
 - {{< frag c="Two" >}}
@@ -38,15 +38,11 @@ func main() {
 
 ---
 
-{{% section %}}
+# Fragments v2
 
-# Vertical slide 1
-
----
-
-# Vertical slide 2
-
-{{% /section %}}
+{{% fragment %}} One {{% /fragment %}}
+{{% fragment %}} Two {{% /fragment %}}
+{{% fragment %}} Three {{% /fragment %}}
 
 ---
 
