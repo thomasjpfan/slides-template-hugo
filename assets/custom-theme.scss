@@ -80,6 +80,13 @@ li {
   margin: 0.5rem -0.5rem;
 }
 
+.g-column {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
 .g-1
 .g-2,
 .g-3,
@@ -88,8 +95,6 @@ li {
   -ms-flex: 0 0 auto;
   -webkit-box-flex: 0;
   flex: 0 0 auto;
-  padding-right: 0.5rem;
-  padding-left: 0.5rem;
 }
 
 .g-1 {
