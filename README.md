@@ -1,4 +1,4 @@
-# Slide Template using Hugo
+# Slide Template using Hugo + Reveal
 
 [Link to slides](https://thomasjpfan.github.io/slides-template-hugo/)
 
